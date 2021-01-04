@@ -130,6 +130,8 @@
   </div>
   </div>
 
+  <input type="url" id="originUrl" name="originUrl" value="" hidden />
+
   <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
 </form>
 
@@ -142,4 +144,6 @@
       }
       form.classList.add('was-validated')
   })
+
+  document.getElementById('originUrl').value = location.href;
 </script>
