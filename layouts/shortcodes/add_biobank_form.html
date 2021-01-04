@@ -1,6 +1,25 @@
-<form class="needs-validation" novalidate>
-
+<form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/add_biobank/">
   <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
+    <div class="card">
+      <div class="card-header" role="tab" id="generalinfo">
+        <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseGeneralInformation" aria-expanded="true"
+        aria-controls="collapseGeneralInformation">
+        <h5 class="mb-0">
+          Submission token* <i class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+    <div id="collapseGeneralInformation" class="collapse show" role="tabpanel" aria-labelledby="generalinfo"
+    data-parent="#accordionForm">
+    <div class="card-body">
+      <div class="form-group">
+        <label for="token"><b>Token:*</b></label>
+        <input type="text" class="form-control" name="token" required>
+        <small class="form-text text-muted">The token used to validate the submission.</small>
+      </div>
+    </div>
+  </div>
+  </div>
     <div class="card">
       <div class="card-header" role="tab" id="generalinfo">
         <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseGeneralInformation" aria-expanded="true"
