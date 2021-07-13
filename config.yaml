@@ -1,16 +1,16 @@
-baseURL: "https://www.covid19dataportal.se/"
-title: "COVID-19 Data Portal Sweden"
+baseURL: "https://www.covid19dataportal.lu/"
+title: "COVID-19 Data Portal Luxembourg"
 params:
-  title: "COVID-19 Data Portal Sweden"
-  description: COVID-19 Data Portal for Swedish Research
+  title: "COVID-19 Data Portal Luxembourg"
+  description: COVID-19 Data Portal for Luxembourgish Research
   images:
-    - /img/site_logo/CV19DP_logo_social_card_SWE.png
+    - /img/site_logo/CV19DP_logo_oneliner_LU.png
 
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
     en:
       home_title: Accelerating research through data sharing
-      enquire_email_footer_dc: "Contact the Swedish COVID-19 Data Portal"
+      enquire_email_footer_dc: "Contact the Luxembourgish COVID-19 Data Portal"
       enquire_email_footer_bioinformatics: "For bioinformatics support, please contact"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
@@ -83,11 +83,11 @@ languages:
     contentDir: content/english
     weight: 1
 
-  sv:
-    languageName: Svenska
-    contentDir: content/svenska
-    weight: 2
-    description: Covid-19 Dataportal för svensk forskning
+#  sv:
+#    languageName: Svenska
+#    contentDir: content/svenska
+#    weight: 2
+#    description: Covid-19 Dataportal för svensk forskning
 
 markup:
   goldmark:
